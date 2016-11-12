@@ -4,8 +4,15 @@
 :data-uri:
 :toc: left
 :numbered:
-:stylesheet: readthedocs.css
-:source-highlighter: highlightjs
-:highlightjsdir: .
 
+include::preface.adoc[]
 
+include::starting/main.adoc[]
+
+include::java-interaction/main.adoc[]
+
+include::errors/main.adoc[]
+
+include::concurrency/main.adoc[]
+
+include::testing/main.adoc[]

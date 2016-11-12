@@ -1,0 +1,9 @@
+== Interacting With Java
+
+=== Using Java Classes in Golo Code
+
+=== Adapters
+
+=== Java 8 Lambda, Functional Interface, Single Abstract Method Type and Golo Function
+
+=== Using Golo Code in Java

@@ -1,0 +1,6 @@
+== Error Handling
+
+In this chapter, we will deal with the several ways to deal with errors in Golo.
+
+include::exceptions.adoc[]
+include::functional.adoc[]
