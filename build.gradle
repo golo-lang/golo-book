@@ -1,0 +1,29 @@
+
+plugins {
+  id 'org.asciidoctor.convert' version '1.5.3'
+  id 'org.golo-lang.golo' version '0.6'
+}
+
+repositories {
+  jcenter()
+}
+
+asciidoctor {
+  sourceDir 'docs'
+  sources {
+    include 'main.adoc'
+  }
+  backends 'html5'
+  logDocuments true
+  separateOutputDirs false
+}
+
+task doc(dependsOn: [asciidoctor]) {
+  description = 'Generates all the documentations.'
+  group = 'Documentation'
+}
+
+dependencies {
+  golo 'org.eclipse.golo:golo:3.1.0'
+}
+

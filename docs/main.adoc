@@ -1,0 +1,11 @@
+= Real World Golo
+:doctype: book
+:icons: font
+:data-uri:
+:toc: left
+:numbered:
+:stylesheet: readthedocs.css
+:source-highlighter: highlightjs
+:highlightjsdir: .
+
+
